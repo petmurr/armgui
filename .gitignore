@@ -1,0 +1,34 @@
+## imgui artifacts
+**/imgui.ini
+
+## build artifacts
+*.o
+*.obj
+*.exe
+
+## Visual Studio artifacts
+.vs
+ipch
+*.opensdf
+*.log
+*.pdb
+*.ilk
+*.user
+*.sdf
+*.suo
+*.VC.db
+*.VC.VC.opendb
+
+## VS Code artifacts
+.vscode
+
+## build directories
+# **/build*/
+
+## release directories
+**/release*/
+
+## Emscripten artifacts
+**/*.o.tmp
+**/*.out.js
+**/*.out.wasm
